@@ -656,7 +656,7 @@ export default function Home() {
                 <span className="fw-bold  text-primary"> Course</span>
               </h1>
             </div>
-            <div className="col-12 col-lg-5 rounded-3 mt-2 mt-lg-4 rounded-3 shadow p-4">
+            <div className="col-12 col-lg-5 rounded-3 mt-2 mt-lg-4 rounded-3 shadow p-4 ">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Learning </span>
                 <span className="fw-bold fs-3 text-primary">Outcomes</span>

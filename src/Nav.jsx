@@ -105,14 +105,14 @@ function NavMenu() {
   const handleContactButtonClick = () => {
     if (window.innerWidth <= 991) { // Only for mobile/tablet sizes
       setExpanded(false); // Close the navbar
-      window.location.reload(); // Reload the current page
+      // window.location.reload(); // Reload the current page
     }
   };
-  const handleContactClick = () => {
+  // const handleContactClick = () => {
  
-      window.location.reload(); // Reload the current page
+  //     window.location.reload(); // Reload the current page
 
-  };
+  // };
 
   return (
     <Navbar
@@ -162,7 +162,7 @@ function NavMenu() {
           <Button
             style={{ background: "#0d278e" }}
             className="btn-lg  d-none d-lg-inline Contactbutton" // Normal width for larger screens
-            onClick={handleContactClick}
+            // onClick={handleContactClick}
           >
             Contact us
           </Button>
