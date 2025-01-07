@@ -228,5 +228,35 @@ html {
   }
 }
 
+/* General class for small devices */
+.small-device-text-wrap {
+  word-wrap: break-word; /* Ensure long words wrap properly */
+}
+
+.small-device-text-wrap span.d-block {
+  display: block; /* Ensure span behaves as block element */
+}
+
+/* Media query for small devices (max-width: 374px) */
+@media (max-width: 374px) {
+  .small-device-text-wrap {
+    padding: 10px; /* Adjust padding for small screens */
+  }
+
+  /* Ensure list items wrap properly */
+  .small-device-text-wrap li {
+    word-wrap: break-word; /* Prevent overflow for long words */
+  }
+
+  /* Remove any nowrap behavior for smaller screens */
+  .small-device-text-wrap span {
+    white-space: normal; /* Ensure text wraps normally */
+  }
+
+  /* Optional: Adjust other font sizes if needed */
+  .small-device-text-wrap .fw-bold {
+    font-weight: bold;
+  }
+}
 
 

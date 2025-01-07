@@ -350,13 +350,13 @@ export default function Home() {
                     Launch Your <br />
                     Airport Career
                   </h1>
-                  <h5
+                  <h4
                     className="text-white lh-base fw-normal"
                     style={{ textAlign: "justify" }}
                   >
                     Join our comprehensive IATA Airport Passenger Ground
                     Services course and become a pro in airport operations.
-                  </h5>
+                  </h4>
                 </motion.div>
 
                 {/* Second Column with Animation */}
@@ -656,7 +656,7 @@ export default function Home() {
                 <span className="fw-bold  text-primary"> Course</span>
               </h1>
             </div>
-            <div className="col-12 col-lg-5 rounded-3 mt-2 mt-lg-4 rounded-3 shadow p-4 ">
+            {/* <div className="col-12 col-lg-5 rounded-3 mt-2 mt-lg-4 rounded-3 shadow p-4 ">
               <p className="text-center mt-lg-3">
                 <span className="fw-bold fs-3 ">Learning </span>
                 <span className="fw-bold fs-3 text-primary">Outcomes</span>
@@ -738,6 +738,95 @@ export default function Home() {
                   />
                   <div>
                     <span style={{ fontWeight: "bold", whiteSpace: "nowrap" }}>
+                      Latest Passenger Service Technology:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                      Stay updated on the newest technology used to provide
+                      services at the airports and on flights.
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div> */}
+
+            <div className="col-12 col-lg-5 rounded-3 mt-2 mt-lg-4 rounded-3 shadow p-4 small-device-text-wrap">
+              <p className="text-center mt-lg-3">
+                <span className="fw-bold fs-3">Learning </span>
+                <span className="fw-bold fs-3 text-primary">Outcomes</span>
+              </p>
+              <p className="text-start ms-3">
+                You will learn the following after completing the Passenger
+                Ground Services course at WingsWay Training Institute:
+              </p>
+              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
+                <li className="ms-lg-4 d-flex align-items-start mt-1">
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>
+                      How Airlines and Airports Work:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                      Learn how airlines and airports provide passenger services
+                      like check-in and boarding.
+                    </span>
+                  </div>
+                </li>
+                <li className="ms-lg-4 d-flex align-items-start mt-1">
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>
+                      Passenger Check-In and Boarding:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                      Understand how passengers and their luggage are checked in
+                      and how they board the airplane, especially those with
+                      special needs.
+                    </span>
+                  </div>
+                </li>
+                <li className="ms-lg-4 d-flex align-items-start mt-1">
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>
+                      Transportation Rules:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                      Know the rules for transporting passengers and their
+                      baggage safely.
+                    </span>
+                  </div>
+                </li>
+                <li className="ms-lg-4 d-flex align-items-start mt-1">
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>
+                      Computer Systems for Travel:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                      Understand how computer systems manage reservations,
+                      flight departures, and other processes.
+                    </span>
+                  </div>
+                </li>
+                <li className="ms-lg-4 d-flex align-items-start mt-1">
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>
                       Latest Passenger Service Technology:
                     </span>{" "}
                     <span className="d-block d-sm-inline">
@@ -1197,9 +1286,7 @@ export default function Home() {
             </div>
             <div>
               <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 mb-1 ms-2 mt-2 testimonialresponsive-div">
-                <h4 className="text-center mt-md-5 mt-5">
-                  Prashnaa Magar
-                </h4>
+                <h4 className="text-center mt-md-5 mt-5">Prashnaa Magar</h4>
                 <p className="text-center">
                   {" "}
                   I had an amazing experience at wingsway training institute.
