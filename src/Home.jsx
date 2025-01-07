@@ -335,33 +335,33 @@ export default function Home() {
                   zIndex: -1, // Keep the background behind the content
                 }}
               ></div>
-              <div className="row mt-5 rounded-5 m-auto p-1 terminalresponsive-container">
+              <div className="row mt-5 rounded-5 m-auto p-1 ">
                 {/* First Column with Animation */}
                 <motion.div
-                  className="col-12 col-lg-5 mt-5 m-auto"
+                  className="col-12 col-lg-6 mt-5 m-auto"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 1.5 }}
                 >
                   <h1
-                    className="text-white mt-5 pt-lg-4"
+                    className="text-white"
                     style={{ fontSize: "60px", fontWeight: "700" }}
                   >
                     Launch Your <br />
                     Airport Career
                   </h1>
-                  <h4
-                    className="text-white lh-base fw-normal"
-                    style={{ textAlign: "justify" }}
+                  <h2
+                    className="text-white lh-base fw-light"
+                  
                   >
                     Join our comprehensive IATA Airport Passenger Ground
                     Services course and become a pro in airport operations.
-                  </h4>
+                  </h2>
                 </motion.div>
 
                 {/* Second Column with Animation */}
                 <motion.div
-                  className="col-12 col-lg-5 rounded-4 mt-3 m-auto mt-lg-1 mb-lg-1"
+                  className="col-12 col-lg-4 rounded-4 mt-3 m-auto mt-lg-1 mb-lg-1"
                   style={{ backgroundColor: "#0721a4", padding: "20px" }}
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
