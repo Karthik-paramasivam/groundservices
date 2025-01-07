@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/groundservices/static/css/main.2d028747.css",
+    "main.js": "/groundservices/static/js/main.c3b6a5f8.js",
+    "static/js/488.c4785fdb.chunk.js": "/groundservices/static/js/488.c4785fdb.chunk.js",
+    "static/media/Terminal.jpg": "/groundservices/static/media/Terminal.8ee150404dfe19edfbba.jpg",
+    "static/media/Welcome.jpg": "/groundservices/static/media/Welcome.f39304da6b0f448988a5.jpg",
+    "static/media/WingsWayBanner.jpg": "/groundservices/static/media/WingsWayBanner.082418d90752081d1dd0.jpg",
+    "static/media/Logo2.png": "/groundservices/static/media/Logo2.731dfe8fe8f8ba5e024e.png",
+    "static/media/WingsWay logo.png": "/groundservices/static/media/WingsWay logo.2d38dac4d59df4056f8d.png",
+    "static/media/Footerlogo.png": "/groundservices/static/media/Footerlogo.095b840dc5c1b28b4e8b.png",
+    "static/media/logo.svg": "/groundservices/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/groundservices/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/groundservices/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/groundservices/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/groundservices/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/groundservices/index.html",
+    "main.2d028747.css.map": "/groundservices/static/css/main.2d028747.css.map",
+    "main.c3b6a5f8.js.map": "/groundservices/static/js/main.c3b6a5f8.js.map",
+    "488.c4785fdb.chunk.js.map": "/groundservices/static/js/488.c4785fdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d028747.css",
+    "static/js/main.c3b6a5f8.js"
+  ]
+}
