@@ -350,10 +350,7 @@ export default function Home() {
                     Launch Your <br />
                     Airport Career
                   </h1>
-                  <h2
-                    className="text-white lh-base fw-light"
-                  
-                  >
+                  <h2 className="text-white lh-base fw-light">
                     Join our comprehensive IATA Airport Passenger Ground
                     Services course and become a pro in airport operations.
                   </h2>
@@ -482,7 +479,7 @@ export default function Home() {
 
         <div className="container mt-5" id="coursediscription">
           <div className="row border border-white m-auto">
-            <div className="col-12">
+            <div className="col-12 border border-white">
               <div className="row">
                 <motion.div
                   ref={ref}
@@ -527,18 +524,14 @@ export default function Home() {
                         </span>
                       </h1>{" "}
                     </motion.p>
-                    <motion.p
+                    {/* <motion.p
                       initial={{ opacity: 0 }}
                       animate={{ opacity: hasViewed ? 1 : 0 }}
                       transition={{ delay: 0.7, duration: 1 }}
                       style={{ textAlign: "justify" }}
                     >
-                      The Passenger Ground Services course at WingsWay Training
-                      Institute provides deep insight into various subjects,
-                      including airport operations, reservation systems,
-                      security protocols, and the evolving landscape of the
-                      aviation sector.
-                    </motion.p>
+                   The IATA Passenger Ground Services course at WingsWay Training Institute is designed to equip students with the essential skills and knowledge required to excel in airport passenger services. This comprehensive training program focuses on the key aspects of passenger handling, safety, and customer service, ensuring participants are well-prepared for roles in the aviation industry. The course provides deep insight into various subjects, including airport operations, reservation systems, and security protocols.
+                    </motion.p> */}
                     <motion.ul
                       initial={{ opacity: 0 }}
                       animate={{ opacity: hasViewed ? 1 : 0 }}
@@ -557,25 +550,63 @@ export default function Home() {
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
                         <span>
-                          Upon completing the course, students will acquire the
-                          expertise to deliver exceptional assistance and
-                          passenger services, ground operations, and customer
-                          satisfaction within airport environments.
+                          The IATA Passenger Ground Services course at WingsWay
+                          Training Institute is designed to equip students with
+                          the essential skills and knowledge required to excel
+                          in airport passenger services.
                         </span>{" "}
                       </motion.li>
                       <motion.li
                         initial={{ opacity: 0 }}
                         animate={{ opacity: hasViewed ? 1 : 0 }}
                         transition={{ delay: 1.0, duration: 0.5 }}
+                        className="d-flex align-items-start "
+                      >
+                        <FontAwesomeIcon
+                          icon={faCircleCheck}
+                          className="text-primary me-2 flex-shrink-0 mt-1"
+                        />
+                        <span>
+                          This comprehensive training program focuses on the key
+                          aspects of passenger handling, safety, and customer
+                          service, ensuring participants are well-prepared for
+                          roles in the aviation industry. The course provides
+                          deep insight into various subjects, including airport
+                          operations, reservation systems, and security
+                          protocols.
+                        </span>{" "}
+                      </motion.li>
+                      <motion.li
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: hasViewed ? 1 : 0 }}
+                        transition={{ delay: 1.2, duration: 0.5 }}
                         className="d-flex align-items-start mt-1"
                       >
                         <FontAwesomeIcon
                           icon={faCircleCheck}
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
-                        In addition, we offer guaranteed international
-                        internships, grooming sessions, CV preparation, mock
-                        interviews, job assistance, and much more.
+                        Upon completing the course, students will acquire the
+                        expertise to deliver exceptional assistance and
+                        passenger services, ground operations, and customer
+                        satisfaction within airport environments. In addition,
+                        we offer guaranteed international internships, grooming
+                        sessions, CV preparation, mock interviews, job
+                        assistance, and much more.
+                      </motion.li>
+                      <motion.li
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: hasViewed ? 1 : 0 }}
+                        transition={{ delay: 1.4, duration: 0.5 }}
+                        className="d-flex align-items-start mt-1"
+                      >
+                        <FontAwesomeIcon
+                          icon={faCircleCheck}
+                          className="text-primary me-2 flex-shrink-0 mt-1"
+                        />
+                        Join the IATA Passenger Ground Services course to unlock
+                        a rewarding career in airport passenger services and
+                        become a key player in the aviation industry.
                       </motion.li>
                     </motion.ul>
                   </div>
@@ -600,11 +631,11 @@ export default function Home() {
                   />
                 </motion.div> */}
 
-                <div className="col-12 col-lg-6 ">
+                <div className="col-12 col-lg-6 d-flex justify-content-center align-items-center text-center m-auto border border-white">
                   <img
                     src={Welcome}
                     alt="Welcome Image"
-                    className="img-fluid rounded-3 mt-5 hover-scale"
+                    className="img-fluid rounded-3 hover-scale"
                   />
                 </div>
               </div>
