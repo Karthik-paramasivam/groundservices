@@ -135,7 +135,7 @@ export default function Home() {
   const handleSubmit = (values) => {
     // Log the values during the first submission, formData will be null initially
     // console.log(values);
-    // setFormData(values); // Set form data after submission
+    setFormData(values); // Set form data after submission
     message.success("Form submitted successfully!");
     setPhoneNumber(""); // Reset phone number field
     form.resetFields(); // Reset all fields
@@ -269,7 +269,7 @@ export default function Home() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     cssEase: "linear",
     autoplaySpeed: 4000,
     // initialSlide: 0,
@@ -550,10 +550,7 @@ export default function Home() {
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
                         <span>
-                          The IATA Passenger Ground Services course at WingsWay
-                          Training Institute is designed to equip students with
-                          the essential skills and knowledge required to excel
-                          in airport passenger services.
+                        The IATA Passenger Ground Services course at WingsWay Training Institute is designed to equip students with the essential skills and knowledge required to excel in airport passenger services.
                         </span>{" "}
                       </motion.li>
                       <motion.li
@@ -567,13 +564,7 @@ export default function Home() {
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
                         <span>
-                          This comprehensive training program focuses on the key
-                          aspects of passenger handling, safety, and customer
-                          service, ensuring participants are well-prepared for
-                          roles in the aviation industry. The course provides
-                          deep insight into various subjects, including airport
-                          operations, reservation systems, and security
-                          protocols.
+                        This comprehensive training programme focuses on the key aspects of passenger handling, safety, and customer service, ensuring participants are well-prepared for roles in the aviation industry. The course provides deep insight into various subjects, including airport operations, reservation systems, and security protocols.
                         </span>{" "}
                       </motion.li>
                       <motion.li
@@ -586,13 +577,7 @@ export default function Home() {
                           icon={faCircleCheck}
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
-                        Upon completing the course, students will acquire the
-                        expertise to deliver exceptional assistance and
-                        passenger services, ground operations, and customer
-                        satisfaction within airport environments. In addition,
-                        we offer guaranteed international internships, grooming
-                        sessions, CV preparation, mock interviews, job
-                        assistance, and much more.
+                        Upon completing the course, students will acquire the expertise to deliver exceptional assistance and passenger services, ground operations, and customer satisfaction within airport environments. In addition, we offer guaranteed international internships, grooming sessions, CV preparation, mock interviews, job assistance, and much more.
                       </motion.li>
                       <motion.li
                         initial={{ opacity: 0 }}
@@ -604,9 +589,7 @@ export default function Home() {
                           icon={faCircleCheck}
                           className="text-primary me-2 flex-shrink-0 mt-1"
                         />
-                        Join the IATA Passenger Ground Services course to unlock
-                        a rewarding career in airport passenger services and
-                        become a key player in the aviation industry.
+                        Join the IATA Passenger Ground Services course to unlock a rewarding career in airport passenger services and become a key player in the aviation industry.
                       </motion.li>
                     </motion.ul>
                   </div>
@@ -1016,14 +999,7 @@ export default function Home() {
                   />
                   Baggage Handler{" "}
                 </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Airline Customer Service Representative{" "}
-                </li>
+
                 <li className="ms-lg-2 d-flex align-items-start mt-1">
                   {" "}
                   <FontAwesomeIcon
@@ -1039,6 +1015,30 @@ export default function Home() {
                     className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
                   />
                   Airport Safety Officer{" "}
+                </li>
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                  Check-In Agent{" "}
+                </li>
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                  Gate Agent{" "}
+                </li>
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                  Customer Service Representative{" "}
                 </li>
               </ul>
             </div>
@@ -1229,11 +1229,139 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="container mt-5">
+          <div
+            className={`row mt-4 rounded-4 slide-in-left  ${
+              hasViewedSlide.fifthElement ? "animate-slide-in" : ""
+            }`}
+            ref={myRef5}
+            style={{ justifyContent: "center" }}
+          >
+            <div className="col-12 ">
+              <h1 className="text-center ">
+                <span className="fw-bold ">Why Choose WingsWay for </span>
+
+                <span className="fw-bold text-primary">
+                  {" "}
+                  Airport Operation Fundamentals ?
+                </span>
+              </h1>
+            </div>{" "}
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-4  rounded-3 shadow p-3">
+              <p className="text-center mt-lg-3">
+                <span className="fw-bold fs-3 ms-0">Recognitions and</span>
+                <span className="fw-bold fs-3 text-primary ">
+                  {" "}
+                  Qualifications:
+                </span>
+              </p>
+              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
+                <li className="ms-lg-3 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>IATA Certified:</span>{" "}
+                    <span className="d-block d-sm-inline">
+                      Our courses are recognised by the International Air
+                      Transport Association, ensuring industry relevance and
+                      international recognition.
+                    </span>
+                  </div>
+                </li>
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>KHDA Approved:</span>{" "}
+                    <span className="d-block d-sm-inline">
+                      Our courses meet the high standards set by the Knowledge
+                      and Human Development Authority for private education.
+                    </span>
+                  </div>
+                </li>
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>
+                      ISO 9001:2015 Certified:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                      We are committed to quality management and continuous
+                      improvement.
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-5 mt-lg-4 rounded-3 shadow ms-lg-4 p-3">
+              <p className="text-center mt-lg-3">
+                <span className="fw-bold fs-3 ms-0">Trusted by </span>
+                <span className="fw-bold fs-3 text-primary ">
+                  Students Worldwide:
+                </span>
+              </p>
+              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
+                <li className="ms-lg-3 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>
+                      Diverse Student Base:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                      Join our community of students from over 80 nationalities.
+                    </span>
+                  </div>
+                </li>
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>
+                      Extensive Course Offerings:
+                    </span>{" "}
+                    <span className="d-block d-sm-inline">
+                      Explore over 250 courses designed to enhance your skills
+                      and career prospects.
+                    </span>
+                  </div>
+                </li>
+
+                <li className="ms-lg-2 d-flex align-items-start mt-1">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
+                  />
+                  Choose WingsWay for a trusted and globally recognised
+                  educational experience in airport operation fundamentals.{" "}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         <div
           className={` container mt-5 border border-white  rounded-4 slide-in-left   ${
-            hasViewedSlide.fifthElement ? "animate-slide-in" : ""
+            hasViewedSlide.sixthElement ? "animate-enquire" : ""
           }`}
-          ref={myRef5}
+          ref={myRef6}
           id="Testimonials"
         >
           <div className="row border-primary ">
@@ -1256,32 +1384,33 @@ export default function Home() {
               <div className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 testimonialresponsive-div">
                 <h3 className="text-center mt-5">Harriet Nakazibwe </h3>
                 <p className=" mt-3 text-center">
-                  I greatly recommend WingsWay as the best institute for
-                  ones’career buildup.It has been a great experience studying at
-                  WingsWay Institute during the pursuing of my IATA PGSA
-                  course.All thankful and grateful of my trainers,Ma’am Sheeran
-                  and Ma’am Tina in this journey of building my career.
+                  I greatly recommend WingsWay as the best institute for ones’
+                  career buildup. It has been a great experience studying at
+                  WingsWay Institute during the pursuing of my IATA PGSA course.
+                  All thankful and grateful of my trainers, Ma’am Sheetal and
+                  Ma’am Tina in this journey of building my career.
                 </p>
               </div>
             </div>
             <div>
               <div className=" p-3 shadow-sm border border-light rounded-3 ms-md-2 ms-lg-4 ms-2 mt-2 testimonialresponsive-div">
-                <h4 className="text-center mt-5">Prateek Pandey</h4>
+                <h3 className="text-center mt-5">Prateek Pandey</h3>
                 <p className="text-center">
-                  I had completed my PGSA course with them last year, it was a
-                  very comprehensive and useful course and total value for money
-                  ! Special thanks to Sheetal ma’am, Tina maam, Queena ma’am and
-                  Cyril sir . I also got a job offer from DNATA within 3 months
-                  of completing the IATA exam. Interview preparation was also
-                  assisted by my trainers and no extra money was charged for on
-                  the phone advises and free complimentary sessions from time to
-                  time . The best place for aviation training! WingsWay !
+                  I had completed my PGSA course with them last year. It was a
+                  very comprehensive and useful course and total value for
+                  money! Special thanks to Sheetal ma’am, Tina ma’am, Queena
+                  ma’am, and Cyril sir. I also got a job offer from dnata within
+                  3 months of completing the IATA exam. Interview preparation
+                  was also assisted by my trainers and no extra money was
+                  charged for on the phone advises and free complimentary
+                  sessions from time to time. The best place for aviation
+                  training! WingsWay !
                 </p>
               </div>
             </div>
             <div>
               <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 ms-2 mt-2 tesreview ">
-                <h4 className="text-center mt-5">Salman Ahmad</h4>
+                <h3 className="text-center mt-5">Salman Ahmad</h3>
                 <p className="text-center">
                   The Wingsway Institute was an incredible experience for me. I
                   had the opportunity to visit their facility and see aircraft
@@ -1303,7 +1432,7 @@ export default function Home() {
             </div>
             <div>
               <div className="p-3 shadow-sm border border-light rounded-3 ms-md-2 ms-lg-4 ms-2 mt-2 testimonialresponsive-div">
-                <h4 className="text-center mt-5">Mohammed Anwar</h4>
+                <h3 className="text-center mt-5">Mohammed Anwar</h3>
                 <p className="text-center">
                   I completed the Passenger Ground Service course at WingsWay
                   Training Institute in Dubai and had a great experience. The
@@ -1317,37 +1446,40 @@ export default function Home() {
             </div>
             <div>
               <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 mb-1 ms-2 mt-2 testimonialresponsive-div">
-                <h4 className="text-center mt-md-5 mt-5">Prashnaa Magar</h4>
+                <h3 className="text-center mt-md-5 mt-5">Prashnaa Magar</h3>
                 <p className="text-center">
                   {" "}
-                  I had an amazing experience at wingsway training institute.
+                  I had an amazing experience at WingsWay Training Institute.
                   The instructors were highly knowledgeable and passionate about
                   their subjects, making learning both engaging and rewarding.
-                  Ms.Tina was so sweet and supportive.The curriculum at wingsway
-                  training institute is well-designed and comprehensive,
-                  covering all the necessary topics and providing practical
-                  skills.Overall, my time at wingsway training institute
-                  exceeded my expectations, and I would highly recommend it to
-                  anyone looking for a best Cabin Crew Courses, PGSA courses and
-                  a supportive learning environment.
+                  Ms. Tina was so sweet and supportive. The curriculum at
+                  WingsWay Training Institute is well-designed and
+                  comprehensive, covering all the necessary topics and providing
+                  practical skills. Overall, my time at WingsWay Training
+                  Institute exceeded my expectations, and I would highly
+                  recommend it to anyone looking for best Cabin Crew Courses,
+                  PGSA courses, and a supportive learning environment.
                 </p>
               </div>
             </div>
 
             <div>
               <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 mb-1 ms-2 mt-2 testimonialresponsive-div">
-                <h4 className="text-center mt-md-5  mt-5">Wanu</h4>
+                <h3 className="text-center mt-md-5  mt-5">Wanu</h3>
 
                 <p className="text-center">
                   {" "}
-                  "Did my PGSA course from wings way and the amount of love and
-                  support I got from miss Tina, miss sheetal and the entire team
-                  of wings way was out of the world. They helped me with each
-                  and everything. I also had the opportunity to visit fujarah
-                  aviation academy where we did our aircraft visit and learnt
-                  how to become a ATC controller, a pilot as well as an AME. We
-                  got a tour of the hanger as well. Blessed to have such great
-                  trainers who are so dedicated towards building our future ❤️"
+                  Did my PGSA course from WingsWay and the amount of love and
+                  support I got from miss Tina, miss Sheetal, and the entire
+                  team of WingsWay was out of the world. They helped me with
+                  each and everything. I also had the opportunity to visit
+                  Fujairah aviation academy where we did our aircraft visit and
+                  learnt how to become an ATC controller, a pilot as well as an
+                  AME. We got a tour of the hangar as well.
+                </p>
+                <p className="text-center">
+                  {" "}
+                  Blessed to have such great trainers who are so dedicated towards building our future. ❤️
                 </p>
               </div>
             </div>
