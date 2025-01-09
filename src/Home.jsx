@@ -560,7 +560,7 @@ export default function Home() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: hasViewed ? 1 : 0 }}
                         transition={{ delay: 1.0, duration: 0.5 }}
-                        className="d-flex align-items-start "
+                        className="d-flex align-items-start mt-1"
                       >
                         <FontAwesomeIcon
                           icon={faCircleCheck}
