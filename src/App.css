@@ -97,8 +97,8 @@
 .Contactbutton {
   transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
   color: white !important;
-  background-color: #007dc0 !important;
-  border: 1px solid #007dc0 !important;
+  background-color: #0d278e !important;
+  /* border: 1px solid #0d278e !important; */
   /* padding: 20px !important; */
 
 }
@@ -106,7 +106,7 @@
 button.Contactbutton:hover {
   background-color: white !important;
   color: #007dc0 !important;
-  border: 1px solid #007dc0
+  border: 1px solid #007dc0 !important;
 }
 
 .Submitbutton {
